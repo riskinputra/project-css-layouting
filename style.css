@@ -40,6 +40,7 @@ header nav ul li {
 section {
   position: inherit;
   padding-top: 100px;
+  padding-bottom: 30px;
 }
 
 section h1 {
@@ -60,4 +61,10 @@ article a {
 
 article a h3 {
   padding-bottom: 15px;
+}
+footer{
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+  padding: 25px;
 }
