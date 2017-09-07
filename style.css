@@ -1,28 +1,31 @@
-*{
+* {
   margin: auto;
   padding: 0;
 }
-body{
+
+body {
   font-family: 'slabo 27px', sans-serif;
   font-size: 14;
   background: url("img/sample-pattern.png");
 }
 
+
 /** Header **/
-header{
+
+header {
   overflow-y: auto;
   position: fixed;
   background-color: #FFF;
-  float: left;
   padding: 5px;
   z-index: 1000;
   width: 100%;
 }
 
-header img#logo{
+header img#logo {
   float: left;
 }
-header nav ul li{
+
+header nav ul li {
   float: right;
   text-decoration: none;
   display: inline-block;
@@ -31,10 +34,30 @@ header nav ul li{
   margin: 10px 20px;
 }
 
+
 /** Section **/
-section{
-  position:static;
+
+section {
+  position: inherit;
+  padding-top: 100px;
 }
-article{
-  padding: 5px 10px;
+
+section h1 {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+article {
+  padding: 20px 10px;
+  background-color: #FFF;
+  width: 50%;
+}
+
+article a {
+  text-decoration: none;
+}
+
+article a h3 {
+  padding-bottom: 15px;
 }
